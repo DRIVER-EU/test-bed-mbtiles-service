@@ -35,7 +35,7 @@ Options
   -f, --folder Mbtiles folder     Folder that contains the mbtiles files (default ./mbtiles).
   -m, --mbtiles Mbtiles file      File that contains the mbtiles files to serve (default use ./mbtiles
                                   folder).
-  -p, --port Port                 Port number (default 3456).
+  -p, --port Port                 Port number (default 3344).
   -c, --concurrency Concurrency   Number of concurrent mbtiles services (default 10).
 
 Examples

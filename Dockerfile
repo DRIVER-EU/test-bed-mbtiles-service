@@ -18,10 +18,10 @@ COPY . /src/
 RUN mkdir -p /root/mbtiles-server
 
 # Enables customized options using environment variables
-ENV MBTILES_PORT='3456'
+ENV MBTILES_PORT='3344'
 
 # Run App
-EXPOSE 3456
+EXPOSE 3344
 
 RUN yarn install --production
 WORKDIR /src

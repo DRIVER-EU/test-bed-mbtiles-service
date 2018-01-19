@@ -54,7 +54,7 @@ export class CommandLineInterface {
     { name: 'browser', alias: 'b', type: Boolean, multiple: false, typeLabel: '[underline]{Browser}', description: 'Open the browser automatically.' },
     { name: 'folder', alias: 'f', type: String, multiple: false, typeLabel: '[underline]{Mbtiles folder}', description: 'Folder that contains the mbtiles files (default ./mbtiles).', defaultValue: 'mbtiles' },
     { name: 'mbtiles', alias: 'm', type: String, multiple: true, defaultOption: true, typeLabel: '[underline]{Mbtiles file}', description: 'File that contains the mbtiles files to serve (default use ./mbtiles folder).' },
-    { name: 'port', alias: 'p', type: Number, multiple: false, typeLabel: '[underline]{Port}', description: 'Port number (default 3456).', defaultValue: 3456 },
+    { name: 'port', alias: 'p', type: Number, multiple: false, typeLabel: '[underline]{Port}', description: 'Port number (default 3344).', defaultValue: 3344 },
     { name: 'concurrency', alias: 'c', type: Number, multiple: false, typeLabel: '[underline]{Concurrency}', description: 'Number of concurrent mbtiles services (default 10).', defaultValue: 10 }
   ];
 

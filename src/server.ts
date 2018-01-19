@@ -26,7 +26,7 @@ export class Server {
     app.use(express.static('public'));
 
     if (process.env.CSCOP_PORT) {
-        options.port = process.env.MBTILES_PORT;
+        options.port = +process.env.MBTILES_PORT;
         log(`MBtiles server port overridden by env variable: ${options.port}.`);
     }
 

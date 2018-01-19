@@ -1,6 +1,6 @@
 {
   "name": "test-bed-mbtiles-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple mbtiles server for the DRIVER-EU test-bed.",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "author": "Erik Vullings <erik.vullings@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^9.3.0",
     "command-line-args": "^5.0.1",
     "command-line-usage": "^4.1.0",
     "express": "^4.16.2",
