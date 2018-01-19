@@ -1,0 +1,1 @@
+In order to run as a standalone application, e.g. on a USB stick, copy the contents of this folder to the root of your USB stick. Furthermore, copy the public, dist and mbtiles folders to the root too.

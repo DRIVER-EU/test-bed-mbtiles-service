@@ -1,0 +1,5 @@
+[Autorun]
+Open=[start.bat]
+Label=Run MBtiles-server
+Action=Run MBtiles-server
+Icon=world.ico

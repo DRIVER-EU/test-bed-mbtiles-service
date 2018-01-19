@@ -1,0 +1,33 @@
+{
+  "name": "test-bed-mbtiles-service",
+  "version": "0.0.1",
+  "description": "A simple mbtiles server for the DRIVER-EU test-bed.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mbtiles_server": "./dist/run.js"
+  },
+  "keywords": [
+    "mbtiles",
+    "map",
+    "service",
+    "tile server"
+  ],
+  "author": "Erik Vullings <erik.vullings@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.0.1",
+    "command-line-usage": "^4.1.0",
+    "express": "^4.16.2",
+    "express-favicon": "^2.0.0",
+    "mbtiles": "^0.9.0",
+    "opn": "^5.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2",
+    "typings": "^2.1.1"
+  }
+}

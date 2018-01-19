@@ -1,0 +1,10 @@
+{
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20161019125345",
+    "serve-favicon": "registry:dt/serve-favicon#0.0.0+20160316155526"
+  },
+  "dependencies": {
+    "express": "registry:npm/express#4.14.0+20160925001530",
+    "opn": "registry:npm/opn#4.0.0+20160326092750"
+  }
+}

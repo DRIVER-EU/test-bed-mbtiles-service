@@ -1,0 +1,12 @@
+---
+version: '2'
+services:
+  mbtilesserver:
+    build: https://github.com/DRIVER-EU/test-bed-mbtiles-service.git#0.0.1
+    hostname: mbtilesserver
+    ports:
+      - "3456:3456"
+    volumes:
+      - ./mbtiles/:/src/mbtiles/
+    environment:
+      MBTILES_PORT: '3456'
