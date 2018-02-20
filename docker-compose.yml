@@ -2,7 +2,7 @@
 version: '2'
 services:
   mbtilesserver:
-    build: https://github.com/DRIVER-EU/test-bed-mbtiles-service.git#0.0.2
+    build: https://github.com/DRIVER-EU/test-bed-mbtiles-service.git
     hostname: mbtilesserver
     ports:
       - "3344:3344"
